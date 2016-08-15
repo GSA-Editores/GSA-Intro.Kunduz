@@ -1,15 +1,16 @@
-﻿	sleep 20;
-	cutText ["", "BLACK IN",999];
-	[] Spawn {
-				waitUntil{!(isNil "BIS_fnc_init")};
-				[("GSA - EDITORES")] spawn BIS_fnc_infoText;
-			 };
+﻿cutText ["", "BLACK",999];
+sleep 3;
+[] Spawn {
+			waitUntil{!(isNil "BIS_fnc_init")};
+			[("GSA - EDITORES")] spawn BIS_fnc_infoText;
+		 };
 	sleep 5;
 	[] Spawn {
 				waitUntil{!(isNil "BIS_fnc_init")};
 				[("Presenta...")] spawn BIS_fnc_infoText;
 			 };
 	sleep 8;
+
 [parseText format [ "<t align='right' size='1.2'><t font='PuristaBold' size='1.6'>""%1""</t><br/>
 %2</t>", toUpper "Operación Armageddon", "por Nava y Elthoy"], true, nil, 7, 0.7, 0] spawn BIS_fnc_textTiles;
 sleep 8;

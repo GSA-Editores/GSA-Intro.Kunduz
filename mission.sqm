@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3779.1548,33.017029,4574.771};
-		dir[]={0.29326004,-0.18414585,-0.93823206};
-		up[]={0.054962959,0.98286921,-0.17584677};
-		aside[]={-0.95455301,-7.6644938e-008,-0.29836059};
+		pos[]={3779.1548,333.21371,4574.771};
+		dir[]={0.24380149,-0.64068049,-0.72820348};
+		up[]={0.20340657,0.76777685,-0.60755169};
+		aside[]={-0.94835627,3.1664968e-007,-0.31750751};
 	};
 };
 binarizationWanted=0;
@@ -246,7 +246,9 @@ class AddonsMetaData
 randomSeed=11402228;
 class ScenarioData
 {
-	author="Nava";
+	briefing=0;
+	showMap=0;
+	saving=0;
 };
 class CustomAttributes
 {
@@ -979,7 +981,7 @@ class Mission
 		month=7;
 		day=6;
 		hour=5;
-		minute=-2;
+		minute=-1;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 		class CustomAttributes
@@ -2087,7 +2089,6 @@ class Mission
 			};
 			class Attributes
 			{
-				init="null = execVM 'intro.sqf';";
 			};
 			class CrewLinks
 			{
@@ -3157,7 +3158,6 @@ class Mission
 			flags=2;
 			class Attributes
 			{
-				init="null = execVM 'intro.sqf';";
 				name="heli1";
 				textures="Black";
 			};
