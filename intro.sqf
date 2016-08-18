@@ -1,4 +1,4 @@
-﻿cutText ["", "BLACK",999];
+﻿cutText ["", "BLACK IN",999];
 sleep 3;
 [] Spawn {
 			waitUntil{!(isNil "BIS_fnc_init")};
@@ -24,3 +24,5 @@ sleep 2;
     ]
 ]
 spawn BIS_fnc_typeText2;
+sleep 20;
+execVM "conversation1.sqf";
