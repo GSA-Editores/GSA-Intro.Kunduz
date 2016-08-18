@@ -9557,6 +9557,7 @@ class Mission
 			};
 			id=676;
 			type="Land_Ind_Shed_02_EP1";
+			atlOffset=4.7683716e-007;
 		};
 		class Item106
 		{
@@ -9629,7 +9630,7 @@ class Mission
 			};
 			id=679;
 			type="Land_IndPipe2_T_R";
-			atlOffset=0.16524553;
+			atlOffset=0.16524506;
 		};
 		class Item109
 		{
@@ -9663,6 +9664,7 @@ class Mission
 			};
 			id=681;
 			type="Land_IndPipe2_SmallBuild2_R";
+			atlOffset=-2.3841858e-007;
 		};
 		class Item111
 		{
@@ -9712,7 +9714,7 @@ class Mission
 			};
 			id=684;
 			type="Land_IndPipe2_big_18ladder";
-			atlOffset=0.29745054;
+			atlOffset=0.29745007;
 		};
 		class Item114
 		{
@@ -9746,6 +9748,7 @@ class Mission
 			};
 			id=686;
 			type="Land_Komin";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item116
 		{
@@ -9826,6 +9829,7 @@ class Mission
 			};
 			id=692;
 			type="Land_LampShabby_F";
+			atlOffset=4.7683716e-007;
 		};
 		class Item120
 		{
@@ -10883,7 +10887,7 @@ class Mission
 			};
 			id=758;
 			type="Land_WiredFence_01_16m_F";
-			atlOffset=-5.7220459e-006;
+			atlOffset=-5.4836273e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10923,7 +10927,7 @@ class Mission
 			};
 			id=759;
 			type="Land_WiredFence_01_16m_F";
-			atlOffset=-9.7751617e-006;
+			atlOffset=-9.5367432e-006;
 			class CustomAttributes
 			{
 				class Attribute0

@@ -11,5 +11,5 @@
                 sleep 5;
                 Oficial sidechat "esperen fuerte resistencia, buena caza.";
 };
-sleep 200;
+sleep 180;
 heli1 animateDoor ['Door_rear_source', 1];
