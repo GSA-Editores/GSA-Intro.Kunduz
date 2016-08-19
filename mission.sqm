@@ -8,7 +8,7 @@ class EditorData
 	toggles=1029;
 	class ItemIDProvider
 	{
-		nextID=1074;
+		nextID=1078;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3343.9966,36.93618,4615.5625};
-		dir[]={0.53197086,-0.52116692,-0.66743898};
-		up[]={0.32483235,0.85344863,-0.40755203};
-		aside[]={-0.78202707,5.2186078e-007,-0.62330019};
+		pos[]={3354.4797,26.079325,4658.6187};
+		dir[]={0.68367547,-0.72926146,-0.028878128};
+		up[]={0.72871596,0.68411624,-0.030781375};
+		aside[]={-0.04220397,5.0193194e-007,-0.99914134};
 	};
 };
 binarizationWanted=0;
@@ -1318,7 +1318,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=198;
+		items=200;
 		class Item0
 		{
 			dataType="Marker";
@@ -12483,7 +12483,7 @@ class Mission
 			side="Civilian";
 			class Entities
 			{
-				items=6;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -12535,31 +12535,90 @@ class Mission
 				class Item4
 				{
 					dataType="Waypoint";
-					position[]={3372.6931,4.6284628,4664.5132};
+					position[]={3370.6001,4.6379943,4665};
 					type="Hold";
 					class Effects
 					{
 					};
+					timeoutMin=5;
+					timeoutMid=5;
+					timeoutMax=5;
 					showWP="NEVER";
 					id=1072;
 				};
 				class Item5
 				{
 					dataType="Waypoint";
-					position[]={3372.2295,4.2905488,4572.2695};
-					type="Cycle";
+					position[]={3368.3999,4.2443981,4676};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1073;
-					atlOffset=4.7683716e-007;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					position[]={3374.7866,4.3036413,4570.0273};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=1074;
+					atlOffset=-7.5817108e-005;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=1065;
+		};
+		class Item198
+		{
+			dataType="Trigger";
+			position[]={3369.8,4.3403831,4669.6001};
+			class Attributes
+			{
+				onActivation="[puertaCentralE, 'Door_1_rot'] call BIS_fnc_DoorNoHandleOpen;[puertaCentralE, 'Door_2_rot'] call BIS_fnc_DoorNoHandleOpen;";
+				onDeactivation="[puertaCentralE, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose;[puertaCentralE, 'Door_2_rot'] call BIS_fnc_DoorNoHandleClose;";
+				sizeA=3.905;
+				sizeB=2.51;
+				activationBy="CIV";
+			};
+			id=1075;
+			type="EmptyDetector";
+		};
+		class Item199
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3365.083,4.495831,4665.7466};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=1077;
+					type="B_Soldier_A_F";
+					atlOffset=-2.1934509e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1076;
+			atlOffset=-2.1934509e-005;
 		};
 	};
 	class Connections
