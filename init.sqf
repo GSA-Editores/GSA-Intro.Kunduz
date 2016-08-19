@@ -1,1 +1,1 @@
-﻿execVM "intro.sqf";
+﻿//execVM "intro.sqf";
